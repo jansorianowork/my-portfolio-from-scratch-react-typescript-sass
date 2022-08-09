@@ -1,0 +1,36 @@
+body{
+    padding: 0 10%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
+.navbar{
+    margin:20px 0;
+}
+
+.nav-link{
+    border-bottom: 4px solid transparent;
+
+    &:hover,:focus,:active{
+        text-align:center;
+        border-bottom: 4px solid transparent;
+        border-image: linear-gradient(0.25turn, $primary-green , $primary-light-blue);
+        border-image-slice: 1;
+        width:100%;
+    }
+    
+}
+
+
+.bg-light{
+   background-color:$neutral-white !important;
+}
+
+.btn-primary{
+    border-radius: 50px;
+    background-image: linear-gradient(to right, $primary-green , $primary-light-blue);
+    border-color: transparent;
+     &:hover,&:focus,&:active{
+        border-color: $primary-light-blue;
+     }
+}
