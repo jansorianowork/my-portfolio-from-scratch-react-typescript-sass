@@ -1,5 +1,5 @@
 import React from 'react'
-import {bannerImage} from '../../images/image-mockups.png'
+import {bannerImage} from './../../images/bannerImage.png'
 const BannerSection = () => {
   return (
     <div className='banner-container'>
@@ -15,7 +15,7 @@ for spending, saving, budgeting, investing, and much more.
           <a>Request Invite</a>
         </div>
         <div className="col-lg-6 col-md-6">
-          <img src={bannerImage} alt="" />
+          <img src={bannerImage} alt="banner" />
         </div>
       </div>
     </div>
