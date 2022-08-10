@@ -1,0 +1,35 @@
+.banner{
+    padding: 0 10%;
+    overflow: hidden;
+    background-color:$neutral-gray;
+    position: relative;
+    &-text{
+        h1{
+            font-size: 3rem;
+            color: $primary-blue;
+        }
+        padding:10% 10% 10% 0;
+
+    }
+    
+    &-image{
+
+        position: relative;
+        top: 0;
+        left: 0;
+        &--front{
+
+            position: relative;
+            left: 250px;
+            bottom:100px;
+            z-index: 1;
+
+        }
+        &--behind{
+            position: absolute;
+            left: 30px;
+            bottom: 150px;
+        }
+
+    }
+}

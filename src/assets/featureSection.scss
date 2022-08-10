@@ -1,0 +1,25 @@
+.feature{
+    padding: 0 10%;
+    &-title{
+        h3{
+            color: $primary-blue;
+        }
+        padding-top:10%;
+        padding-bottom:20px;
+
+    }
+
+    &-list{
+        margin:5% 0;
+        &-item{
+           &--icon{
+            padding-bottom:40px;
+           }
+
+           &--title{
+            padding-bottom:20px;
+           }
+        }
+    }
+
+}
