@@ -5,7 +5,6 @@ import { featuresDetails } from "./../../../assets/constants";
 const FeatureSection = () => {
   return (
     <>
-      {" "}
       <div className="feature">
         <h3 className="feature-title">Why choose Easybank?</h3>
         <p className="feature-desc">
