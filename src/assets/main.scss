@@ -9,6 +9,6 @@
 @import './default.scss';
 
 
-@import './bannerSection.scss';
-@import './featureSection.scss';
+@import './../components/Sections/Banner/bannerSection.scss';
+@import './../components/Sections/Feature/featureSection.scss';
 

@@ -1,7 +1,7 @@
 import React from "react";
 import {BrowserRouter as Router, Link} from 'react-router-dom';
-import BannerImage from "./../../images/banner-image.png";
-import BannerImageBG from './../../images/icon/bg-intro-desktop.svg'
+import BannerImage from "./../../../images/icon/banner-image.png";
+import BannerImageBG from './../../../images/icon/bg-intro-desktop.svg'
 
 const BannerSection = () => {
   return (
