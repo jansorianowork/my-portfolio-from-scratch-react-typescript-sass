@@ -1,0 +1,44 @@
+.footer{
+    background-color: $primary-blue;
+    padding: 20px 10%;
+    &-title{
+        h3{
+            color: $primary-blue;
+        }
+        padding-top:10%;
+        padding-bottom:20px;
+    }
+    &-social-icons{
+        margin:5px;
+    }
+    &-brand{
+        margin:0 5px 20px;
+
+        a{
+            font-size: 24px;
+            color: $neutral-gray;
+            text-decoration: none;
+        }
+
+    }
+    &-links{
+
+        a{
+            color:$neutral-gray;
+            font-size: 14px;
+            text-decoration: none;
+        }
+        &--items{
+            display: flex;
+            flex-direction: column;
+
+
+        }
+    }
+    .copyright{
+        color: $neutral-gray;
+        font-size: 12px;
+        margin-top:20px;
+    }
+
+}

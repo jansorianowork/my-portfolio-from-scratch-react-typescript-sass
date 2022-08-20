@@ -1,0 +1,48 @@
+.articles{
+    padding: 0 10%;
+    h1{
+        margin-bottom: 50px;
+    }
+
+    .card-img-top{
+            height: 250px;
+    }
+    .card{
+        margin: 5% 0;
+    }
+}
+
+
+
+@media only screen and (max-width: 600) {
+
+.articles{
+    .card-img-top{
+        height: 100px;
+    }
+}
+
+
+}
+
+@media only screen and (max-width: 1600) {
+
+    .articles{
+        .card-img-top{
+            height: 200px;
+        }
+    }
+    
+    
+    }
+
+    @media only screen and (max-width: 999) {
+
+        .articles{
+            .card-img-top{
+                height: 150px;
+            }
+        }
+        
+        
+        }

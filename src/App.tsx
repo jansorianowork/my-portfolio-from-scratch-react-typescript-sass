@@ -3,7 +3,7 @@ import Header from './components/Header'
 import BannerSection from './components/Sections/Banner/BannerSection'
 import FeatureSection from './components/Sections/Feature/FeatureSection';
 import ArticlesSection from './components/Sections/Article/ArticlesSection';
-import Footer from './components/Footer';
+import Footer from './components/Sections/Footer/Footer';
 
 import './assets/main.scss';
 
